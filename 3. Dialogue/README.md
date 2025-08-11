@@ -6,15 +6,16 @@
 
 ```text
 DialogueManager.cs  # 캐싱/중복 방지/트리거 진입점
+DialogueUI.cs       # 시퀀스 재생 코루틴, 연출 담당
 
 InGame/Dialogue/          # 대화 시스템 전반 (UI 포함)
 ├─ Data/                  # 데이터 정의
 │  ├─ DialogueData.cs     # 1줄(화자/본문/보이스/타입) 구조체
 │  └─ DialogueDataSO.cs   # 키 기반 시퀀스 ScriptableObject
 ├─ Runtime/               # 런타임 로직
-│  └─ DialogueTrigger.cs  # 콜라이더 기반 재생 트리거(1회성 옵션)
-└─ UI/                    # 표현(타자기/보이스/페이드)
-   └─ DialogueUI.cs       # 시퀀스 재생 코루틴, 연출 담당
+└─ └─ DialogueTrigger.cs  # 콜라이더 기반 재생 트리거(1회성 옵션)
+
+
 ```
 
 <br>
