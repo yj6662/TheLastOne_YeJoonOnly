@@ -1,4 +1,4 @@
-# 🧐 TheLastOne_GyuminOnly
+# 🧐 TheLastOne_YeJoonOnly
 TheLastOne 게임 제작 중, 한예준이 작업한 스크립트를 모아놨습니다.
 한예준은 UI/Dialogue/Sound 및 로컬라이제이션을 담당하였습니다.
 
