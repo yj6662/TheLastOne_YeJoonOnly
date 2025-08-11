@@ -9,7 +9,7 @@ Sound/
 ├─ SoundGroupSO.cs   # Addressables AudioClip 레퍼런스 모음(인덱스/랜덤 선택 API)
 └─ SoundPlayer.cs    # 풀링된 오디오 재생기(2D/3D, duration 기반 pitch 보정)
 
-# (참고) Manager/SoundManager.cs 는 매니저 모듈에 위치합니다.
+# Manager/SoundManager.cs 는 매니저 모듈에 위치합니다.
 ```
 
 <br>
