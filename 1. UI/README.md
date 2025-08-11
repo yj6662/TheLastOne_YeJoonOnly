@@ -120,7 +120,6 @@ public override void Show()
    panelAnimator?.Rebind();
    panelAnimator?.Play("Panel In");
    RefreshInventoryUI();
-    입력 게이팅 & 마우스 커서 노출
    playerCondition.OnDisablePlayerMovement();
    Cursor.lockState = CursorLockMode.None;
    Cursor.visible = true;
